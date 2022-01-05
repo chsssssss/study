@@ -1,0 +1,152 @@
+#top{
+    width: 1150px;
+    height: 160px;
+    margin: 0 auto 0 auto;
+}
+
+#main{
+    width: 1150px;
+    margin: 0 auto 0 auto;
+    display: inline-flex;
+}
+
+#content{
+    width: 750px;
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+
+#right{
+    width: 350px;
+    display: flex;
+}
+
+#naver_logo{
+    width: 230px;
+    height: 60px;
+    margin: 20px 20px 20px 20px;
+    display: inline-flex;
+    position: absolute;
+    left: 300px;
+}
+
+#service_area{
+    margin-left: auto;
+    width: 220px;
+    display: block;
+}
+
+.service{
+    font-size: 10px;
+    color: grey;
+    display: inline-flex;
+}
+
+#updown{
+    border: 0.1px solid rgb(204, 204, 204);
+    width: 0.001px;
+    height: 9px;
+    display: inline-flex;
+}
+
+#search_bar{
+    height: 50px;
+    width: 570px;
+    border: 2px solid rgb(3, 207, 90);
+    background-color: white;
+    display: inline-flex;
+    position: absolute;
+    left: 580px;
+    margin: 30px 0 30px;
+}
+
+#search{
+    font-size: 20px;
+    font-weight: 600;
+    width: 520px;
+    height: 50px;
+    border-color: rgb(3, 207, 90);
+    border: 1px;
+    float: left;
+    padding-left: 15px;
+}
+
+#search_button{
+    width: 50px;
+    height: 50px;
+    float: right;
+    background: url("search_button.JPG") no-repeat;
+    background-size: 51px;
+    border: 0px;
+}
+
+
+ul,li{
+    list-style: none;
+}
+
+.slide{
+    width: 750px;
+    height: 180px;
+    overflow: hidden;
+    display: flex;
+}
+
+.slide ul{
+    width: calc(100% * 3);
+    animation: slide 6s infinite;
+    display: flex;
+}
+
+.slide li{
+    width: calc(100% / 3);
+    height: 180px;
+}
+
+.slide li:nth-child(1){
+    background: url(slide1.jpg);
+
+}
+
+.slide li:nth-child(2){
+    background: url(slide2.jpg);
+
+}
+
+.slide li:nth-child(3){
+    background: url(slide3.jpg);
+
+}
+
+@keyframes slide{
+    0%{
+        margin-left: 0;
+    }
+    10%{
+        margin-left: 0;
+    }
+    50%{
+        margin-left: -100%;
+    }
+
+    75%{
+        margin-left: -200%;
+    }
+
+    100%{
+        margin-left: -0%;
+    }
+}
+
+#newsstand{
+    height: 50px;
+    width: 750px;
+    display: flex;
+}
+
+
+#login{
+    height: 130px;
+    width: 330px;
+    background : rgb(238, 238, 238);
+}
