@@ -3,17 +3,14 @@
 HTTP(Hypertext Transfer Protocol)는 인터넷상에서 웹 서버와 클라이언트 브라우저 간의 하이퍼텍스트 문서를 전송하기 위해 사용되는 통신 규약이다. 
 
 ## HTTP 특징
-+ 클라이언트 서버 구조
-: 클라이언트가 서버에 요청을 보내면 서버는 그에 대한 응답을 보낸다.
-+ 무상태 프로토콜(Stateless)
-: HTTP에서 서버가 클라이언트의 상태를 보존하지 않는다.
-+ 비연결성 
-: 비연결성을 가지는 HTTP에서는 실제로 요청을 주고 받을 때만 연결을 유지하고 응답을 주고나면 TCP/IP 연결을 끊는다.
++ **클라이언트 서버 구조** : 클라이언트가 서버에 요청을 보내면 서버는 그에 대한 응답을 보낸다.
++ **무상태 프로토콜(Stateless)** : HTTP에서 서버가 클라이언트의 상태를 보존하지 않는다.
++ **비연결성** : 비연결성을 가지는 HTTP에서는 실제로 요청을 주고 받을 때만 연결을 유지하고 응답을 주고나면 TCP/IP 연결을 끊는다.
 
 ## HTTP의 동작방식
 클라이언트와 서버들은 개별적인 메시지 교환에 의해 통신한다. 
-+ 요청(Request) : 보통 브라우저인 클라이언트에 의해 전송되는 메시지
-+ 응답(Responses) : 요청에 대해 서버에서 응답으로 전송되는 메시지
++ **요청(Request**) : 보통 브라우저인 클라이언트에 의해 전송되는 메시지
++ **응답(Responses)** : 요청에 대해 서버에서 응답으로 전송되는 메시지
 
 ## 요청(Request)
 <pre>
@@ -52,10 +49,10 @@ Upgrade-Insecure-Requests: 1
 </pre>
 
 + Hearder의 정보 종류
-    - Host : 요청이 전송되는 Target의 Host URL
-    - User-Agent : 요청을 보낸 클라이언트의 정보
-    - Accept : 해당 타입의 Response를 보내달라고 요청
-    - Content-Type : Request의 body 타입
+    - **Host** : 요청이 전송되는 Target의 Host URL
+    - **User-Agent** : 요청을 보낸 클라이언트의 정보
+    - **Accept** : 해당 타입의 Response를 보내달라고 요청
+    - **Content-Type** : Request의 body 타입
 
 ### 3. Body
 + 해당 Request의 실제 메시지
