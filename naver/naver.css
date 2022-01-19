@@ -6,15 +6,11 @@
 
 #main{
     width: 1150px;
-    margin: 0 auto 0 auto;
-    display: inline-flex;
+    margin: 0 auto;
+    padding: 20px 30px;
+    position: relative;
 }
 
-#content{
-    width: 750px;
-    margin: 0 auto 0 auto;
-    display: flex;
-}
 
 #right{
     width: 350px;
@@ -86,35 +82,40 @@ ul,li{
 }
 
 .slide{
-    width: 750px;
-    height: 180px;
+    width: 752px;
+    height: 140px;
     overflow: hidden;
-    display: flex;
+
 }
 
 .slide ul{
-    width: calc(100% * 3);
-    animation: slide 6s infinite;
+    width: calc(100% * 4);
+    animation: slide 8s infinite;
     display: flex;
 }
 
 .slide li{
-    width: calc(100% / 3);
-    height: 180px;
+    width: calc(100% / 4);
+    height: 140px;
 }
 
 .slide li:nth-child(1){
-    background: url(slide1.jpg);
+    background-color: rgb(255, 206, 222);
 
 }
 
 .slide li:nth-child(2){
-    background: url(slide2.jpg);
+    background-color: rgb(254, 248, 133);
 
 }
 
 .slide li:nth-child(3){
-    background: url(slide3.jpg);
+    background-color: rgb(175, 226, 239);
+
+}
+
+.slide li:nth-child(4){
+    background-color: rgb(200, 191, 231);
 
 }
 
@@ -125,28 +126,113 @@ ul,li{
     10%{
         margin-left: 0;
     }
-    50%{
+    25%{
         margin-left: -100%;
     }
-
-    75%{
+    35%{
+        margin-left: -100%;
+    }
+    50%{
         margin-left: -200%;
     }
-
+    60%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    85%{
+        margin-left: -300%;
+    }
     100%{
-        margin-left: -0%;
+        margin-left: 0;
     }
 }
 
-#newsstand{
+#navbar {
     height: 50px;
-    width: 750px;
-    display: flex;
+    border-top: 1px solid rgb(214, 214, 214);
+    border-bottom: 1px solid rgb(236, 236, 236);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
+}
+
+#nav {
+    width: 1150px;
+    margin: 13px auto;
+}
+
+.navbox {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(3, 207, 90);
+    display: inline;
+    margin: auto 3px;
+    padding: 2px;
+}
+
+.navbox2 {
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    display: inline;
+    margin: auto 3px;
+    padding: 2px;
+}
+
+.more {
+    font-size: 15px;
+    color: grey;
+    margin: 10px;
+    display: inline;
 }
 
 
-#login{
-    height: 130px;
+
+
+#login-box{
+    height: 115px;
     width: 330px;
     background : rgb(238, 238, 238);
+    border: 1px solid rgb(214, 214, 214);
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    display: block;
+    padding: 10px;
+}
+
+#login-button {
+    background-color: rgb(3, 207, 90);
+    width: 310px;
+    height: 50px;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+#login-sub-area {
+    width: 300px;
+    margin-top: 12px;
+    display: block;
+}
+
+.login-look {
+    font-size: 12px;
+    color: grey;
+    margin: 5px 13px;
+}
+
+.login-join {
+    font-size: 12px;
+    color: grey;
+    margin: 5px 13px;
+    position: absolute;
+    right: 13px;
+    bottom: 10px;
+}
+
+#adv1 {
+    background-color: rgb(254, 248, 133);
+    width: 750px;
+    height: 135px;
+    display: block;
 }
