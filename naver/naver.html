@@ -8,50 +8,71 @@
     <link rel="stylesheet" href="naver.css">
 </head>
 <body>
-    <div id="top">
+    <div id="header">
         <div id="service_area">
-            <div class="service">네이버를 시작페이지로</div>
+            <button class="service">네이버를 시작페이지로</button>
             <div id="updown"></div>
-            <div class="service">쥬니버네이버</div>
-            <div class="service">해피빈</div>
+            <button class="service">쥬니버네이버</button>
+            <button class="service">해피빈</button>
         </div>
-        <img id="naver_logo" src="naver_logo.JPG">
-        <div id="search_bar">
-            <input id="search" type="search">
-            <button id="search_button"></button>
+        <div id="top">
+            <img id="naver_logo" src="naver_logo.JPG">
+            <div id="search_bar">
+                <input id="search" type="search">
+                <button id="search_button"></button>
+            </div>
         </div>
     </div>
     <div id="navbar">
         <div id="nav">
-            <li class="navbox">메일</li>
-            <li class="navbox">카페</li>
-            <li class="navbox">블로그</li>
-            <li class="navbox">지식iN</li>
-            <li class="navbox">쇼핑</li>
-            <li class="navbox">쇼핑Live</li>
-            <li class="navbox">Pay</li>
-            <li class="navbox">Tv</li>
-            <li class="navbox2">사전</li>
-            <li class="navbox2">뉴스</li>
-            <li class="navbox2">증권</li>
-            <li class="navbox2">부동산</li>
-            <li class="navbox2">지도</li>
-            <li class="navbox2">VIBE</li>
-            <li class="navbox2">책</li>
-            <li class="navbox2">웹툰</li>
-            <li class="more">더 보기</li>
+            <button class="navbox">메일</li>
+            <button class="navbox">카페</li>
+            <button class="navbox">블로그</li>
+            <button class="navbox">지식iN</li>
+            <button class="navbox">쇼핑</li>
+            <button class="navbox">쇼핑Live</li>
+            <button class="navbox">Pay</li>
+            <button class="navbox">Tv</li>
+            <button class="navbox2">사전</li>
+            <button class="navbox2">뉴스</li>
+            <button class="navbox2">증권</li>
+            <button class="navbox2">부동산</li>
+            <button class="navbox2">지도</li>
+            <button class="navbox2">VIBE</li>
+            <button class="navbox2">책</li>
+            <button class="navbox2">웹툰</li>
+            <button class="more">더 보기</li>
         </div>
     </div>
     <div id="main">
         <div id="adv1"></div>
         <div id="login-box">
-            <div class="login-look">네이버를 더 안전하고 편리하게 이용하세요</div>
-            <div id="login-button"></div>
+            <div id="login-msg">네이버를 더 안전하고 편리하게 이용하세요</div>
+            <button id="login-button"></button>
             <div id="login-sub-area">
-                <div class="login-look">아이디 · 비밀번호찾기</div>
+                <div class="login-look">아이디 ·</div>
+                <div class="login-look">비밀번호 찾기</div>
                 <div class="login-join">회원가입</div>
             </div>
         </div>
+        <div id="news-slide">
+            <div id="media">연합뉴스</div>
+            <div id="issue-slide">
+                <ul>
+                    <li>신규확진 27일 1만 5천명 넘을듯... 신속항원검사 29일...</li>
+                    <li>북한, 디도스 공격 후폭풍 이틀째 지속 접속장애 여...</li>
+                    <li>LG엔솔 오늘 상장... 청약 흥행 이어 '따상' 갈까</li>
+                    <li>합참 "북한 동해상으로 발사체 발사"... 올해 여섯번째 무...</li>
+                </ul>
+            </div>
+            <div id="news-type-area">
+                <button id="news-home">뉴스홈</button>
+                <button class="news-type">연예</button>
+                <button class="news-type">스포츠</button>
+                <button class="news-type">올림픽</button>
+            </div>
+        </div>
+        <div id="card-news-box"></div>
     </div>
 </body>
 </html>
