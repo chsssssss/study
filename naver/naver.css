@@ -231,6 +231,9 @@ ul,li{
     display: inline-flex;
 }
 
+a {
+    text-decoration: none;
+}
 
 .login-look {
     font-size: 12px;
@@ -242,6 +245,11 @@ ul,li{
     font-size: 12px;
     color: grey;
     margin: 5px 5px 5px 120px;
+}
+
+#login-sub-area a:hover{
+    text-decoration: underline;
+    color: grey;
 }
 
 #adv1 {
@@ -323,6 +331,7 @@ ul,li{
     margin: 0px 8px;
     border: none;
     padding: 0;
+    text-decoration: none;
 }
 
 .news-type {
@@ -331,6 +340,8 @@ ul,li{
     margin: 0px 5px;
     border: none;
     padding: 0;
+    color: black;
+    text-decoration: none;
 }
 
 #card-news-box {
