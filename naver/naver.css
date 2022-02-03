@@ -50,6 +50,11 @@
     border: none;
 }
 
+#service_area a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
 #updown{
     border: 0.1px solid rgb(204, 204, 204);
     width: 0.001px;
@@ -164,6 +169,10 @@ ul,li{
     margin: 4px auto;
 }
 
+#nav a {
+    display: inline-flex;
+}
+
 .navbox {
     font-size: 15px;
     font-weight: 700;
@@ -187,7 +196,7 @@ ul,li{
 }
 
 .more {
-    font-size: 15px;
+    font-size: 14px;
     color: grey;
     margin: 10px;
     display: inline;
