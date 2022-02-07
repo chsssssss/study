@@ -366,17 +366,56 @@ a {
 
 #news-stand-group {
     display: block;
-    padding-top: 5px;
+    width : 750px;
+    padding: 7px 0 15px 0px;
 }
 
 .news-stand {
-    padding: 15px;
+    padding-right: 17px;
     font-weight: 700;
     color: black;
     font-size: 14px;
 }
 
 #subscription {
+    padding-right: 17px;
     font-size: 14px;
     color: rgb(70, 70, 70);
+}
+
+#btn-group {
+    display: inline-flex;
+    float: right;
+}
+
+.btn-set {
+    margin: 0 7px 7px 0;
+}
+
+#news-stand-media {
+    width: 750px;
+}
+
+table tr td{
+    width: 124px;
+    height: 65px;
+    border: 1px solid rgb(228, 228, 228);
+    padding: 0;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+td:hover{
+    background-color:lightgray;
+}
+
+#adv2 {
+    background-color: rgb(184, 236, 184);
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    top: 235px;
+    right: 40px;
 }
