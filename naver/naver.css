@@ -55,11 +55,12 @@
     color: grey;
 }
 
-#updown{
+.updown{
     border: 0.1px solid rgb(204, 204, 204);
     width: 0.001px;
     height: 9px;
     display: inline-flex;
+    margin-top: 4px;
 }
 
 
@@ -418,4 +419,50 @@ td:hover{
     position: absolute;
     top: 235px;
     right: 40px;
+}
+
+#today-group {
+    display: inline-flex;
+    width: 750px;
+    height: 35px;
+    padding-top: 30px;
+}
+
+#today {
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+#theme {
+    font-size: 13px;
+    color: grey;
+    padding: 4px 0;
+}
+
+#interest-group{
+    display: inline-flex;
+    color: grey;
+    font-size: 13px;
+    margin-left: auto;
+    padding: 4px 0;
+}
+
+#interest-group div {
+    margin-left: 7px;
+}
+
+#category-group {
+    width: 750px;
+    height: 50px;
+}
+
+#category-group ul {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
+
+
+#category-group ul li a{
+    
 }
