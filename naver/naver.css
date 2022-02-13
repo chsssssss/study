@@ -211,7 +211,7 @@ a {
     height: 24px;
     background : rgb(238, 238, 238);
     border: 1px solid rgb(214, 214, 214);
-    margin: 15px 0px;
+    margin-top: 15px;
     padding: 12px 15px;
     display: inline-flex;
 }
@@ -368,7 +368,7 @@ a {
 #news-stand-group {
     display: block;
     width : 750px;
-    padding: 7px 0 15px 0px;
+    padding: 0 0 15px 0px;
 }
 
 .news-stand {
@@ -464,5 +464,70 @@ td:hover{
 
 
 #category-group ul li a{
-    
+    color: black;
+    font-weight: 700;
+    width: 92px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(223, 223, 223);
+    font-size: 14px;
+}
+
+#category-group ul li {
+}
+
+#category-group li a:nth-child(1):hover{
+    color: #E65DA0;
+}
+
+#category-group li a:nth-child(2):hover{
+    color: #3565C9;
+}
+
+#category-group li a:nth-child(3):hover{
+    color: #4A94E1;
+}
+
+#category-group li a:nth-child(4):hover{
+    color: #66C971;
+}
+
+#category-group li a:nth-child(5):hover{
+    color: #35AE5E;
+}
+
+#category-group li a:nth-child(6):hover{
+    color: #5290FF;
+}
+
+#category-group li a:nth-child(7):hover{
+    color: #EBAA00;
+}
+
+#category-group li a:nth-child(8):hover{
+    color: #C08D31;
+}
+
+#theme-container {
+    width: 750px;
+}
+
+#olympic-banner {
+    width: 750px;
+    height: 60px;
+    background-color: rgb(204, 241, 253);
+    margin: 20px 0 20px 0;
+}
+
+#story-group {
+    width: 750px;
+    height: 360px;
+}
+
+#sports-img {
+    width: 365px;
+    height: 180px;
+    background-color: rgb(235, 213, 255);
 }
