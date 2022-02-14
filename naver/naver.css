@@ -211,7 +211,7 @@ a {
     height: 24px;
     background : rgb(238, 238, 238);
     border: 1px solid rgb(214, 214, 214);
-    margin-top: 15px;
+    margin: 15px 0 15px 0;
     padding: 12px 15px;
     display: inline-flex;
 }
@@ -419,6 +419,7 @@ td:hover{
     position: absolute;
     top: 235px;
     right: 40px;
+
 }
 
 #today-group {
@@ -519,15 +520,62 @@ td:hover{
     height: 60px;
     background-color: rgb(204, 241, 253);
     margin: 20px 0 20px 0;
+    display: block;
 }
 
 #story-group {
     width: 750px;
     height: 360px;
+    display: inline-flex;
 }
 
 #sports-img {
     width: 365px;
     height: 180px;
     background-color: rgb(235, 213, 255);
+    display: block;
 }
+
+.sports-img-info {
+    margin-top: 15px;
+}
+
+.sports-info {
+    font-size: 13px;
+    color: grey;
+    margin-top: 10px;
+}
+
+#sports-img-info a {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+#sports-list ul li{
+    margin-bottom: 20px;
+    display: inline-flex;
+}
+
+#sports-list ul {
+    margin: 0 0 0 30px;
+    padding: 0;
+}
+
+.sports-title {
+    color: black;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.list-img {
+    background-color: rgb(255, 243, 212);
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+#sports-list ul li .sports-img-info {
+    margin-top: 10px;
+}
+
