@@ -579,3 +579,41 @@ td:hover{
     margin-top: 10px;
 }
 
+#sports-nav {
+    width: 750px;
+    height: 50px;
+    background-color: rgb(245, 245, 245);
+    display: inline-flex;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: 0.5px solid rgb(207, 207, 207);
+}
+
+#sports-nav a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+}
+
+#updown-long {
+    border: 0.1px solid rgb(236, 236, 236);
+    height: 30px;
+    display: inline-flex;
+    margin: 8px;
+}
+
+#sports-type{
+    color: rgb(75, 75, 75);
+}
+
+#sports-nav li {
+    margin: 13px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+#sports-home{
+    color: #0147B5;
+}
+
