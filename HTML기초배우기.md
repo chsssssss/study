@@ -13,8 +13,7 @@ HTML(Hypertext Markup Language)이란 우리가 보는 웹페이지가 어떻게
 3. 요소 : 시작태그, 종료태그, 내용을 모두 포함
 
 ## HTML 문서의 구조
-<pre>
-<code>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -29,24 +28,23 @@ HTML(Hypertext Markup Language)이란 우리가 보는 웹페이지가 어떻게
 </body>
 </html>
 ```
-</pre>
-</code>
 
-1. <pre><code><!DOCTYPE html></pre></code>
+
+1. ```<!DOCTYPE html>```
 - 웹 문서가 어떤 버전의 HTML 언어로 작성되었는지 결정하는 기능
 
-2.<pre><code><html></html></pre></code>
+2. ```<html></html>```
 - HTML 문서의 루트요소를 정의
 
-3. <pre><code><head></head></pre></code>
+3. ```<head></head>```
 - 웹페이지의 정보, 문서에 사용할 외부 파일들을 링크할 때 사용
 
-4. <pre><code><meta charset="UTF-8"></pre></code>
+4. ```<meta charset="UTF-8">```
 웹 페이지의 문자 인코딩 방식을 utf-8로 지정
 
-5. <pre><code><title></title></pre></code>
+5. ```<title></title>```
 - 브라우저 탭에 표시되는 제목을 설정
 
-6. <pre><code><body></body></pre></code>
+6. ```<body></body>```
 - 브라우저에 실제 표시되는 내용
 - 텍스트, 이미지 등 페이지에 표시되는 모든 콘텐츠
