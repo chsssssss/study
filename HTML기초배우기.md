@@ -16,6 +16,7 @@ HTML(Hypertext Markup Language)이란 우리가 보는 웹페이지가 어떻게
 ## HTML 문서의 구조
 <pre>
 <code>
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +29,7 @@ HTML(Hypertext Markup Language)이란 우리가 보는 웹페이지가 어떻게
     <p>mom's spaghetti</p>
 </body>
 </html>
+```
 </pre>
 </code>
 1. <pre><code><!DOCTYPE html></pre></code>
