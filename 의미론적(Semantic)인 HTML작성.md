@@ -92,10 +92,7 @@ ex) 게시물, 신문 기사, 블로그 포스트
 
 ## footer
 + 작성자에 대한 정보, 저작권 등을 포함
-<pre>
-<code>
-<footer>
+``` <footer>
     <p>Copyright KaKao Corp. All rights reserved.</p>
-</footer>
-</code>
-</pre>
+</footer> 
+```
